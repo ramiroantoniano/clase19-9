@@ -1,0 +1,32 @@
+[
+    {
+        "marca" : "Star Wars",
+        "nombre" : "Luke",
+        "precio" : 190,
+        "stock" : 3
+    },
+    {
+        "marca" : "Star Wars",
+        "nombre" : "Skywalker",
+        "precio" : 200,
+        "stock" : 2
+    },
+    {
+        "marca" : "Star Wars",
+        "nombre" : "Boba Fett",
+        "precio" : 350,
+        "stock" : 9
+    },
+    {
+        "marca" : "Star Wars",
+        "nombre" : "Jedi",
+        "precio" : 600,
+        "stock" : 4
+    },
+    {
+        "marca" : "Star Wars",
+        "nombre" : "Kessel Run",
+        "precio" : 470,
+        "stock" : 17
+    }
+]
