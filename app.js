@@ -18,8 +18,13 @@ const collectibles = {
     },
     figuresByBrand: function(brand){ //puntoB
        return this.figuras.filter((elemento) => elemento.marca === brand);
+    },
+    figuresByPriceAndBrand: function(precio, brand){
+        figBrand = this.figuresByBrand(brand)
+        return figBrand.filter((elemento) => elemento.precio >= precio);
     }
 }
 //puntoC
 console.log(collectibles.listFigures());
 console.log(collectibles.figuresByBrand('Star Wars'));
+console.log(collectibles.figuresByPriceAndBrand(150, 'Bandai'));
